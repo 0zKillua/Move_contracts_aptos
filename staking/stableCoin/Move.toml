@@ -1,0 +1,20 @@
+[package]
+name = "stableCoin"
+version = "1.0.0"
+authors = []
+
+[addresses]
+stablecoin="0xABC"
+master_minter="0xdef"
+minter="0xdef"
+pauser="0xdef"
+denylister="0xdef"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
